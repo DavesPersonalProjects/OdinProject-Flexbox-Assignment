@@ -1,0 +1,177 @@
+
+
+body{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    margin:0;
+}
+.topblock{
+    display:flex;
+    flex-direction: column;
+background-color: #1F2937;
+padding:8px;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:200px;;
+}
+.header .rightside{
+    display:flex;
+    gap: 10px;
+}
+
+.text .h1{
+    margin-left:80px;
+}
+.levelone{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+p{
+    font-size:18px;
+    color: #E5E7EB
+    
+}
+
+a{
+    text-decoration: none;
+    color:#E5E7EB;
+}
+
+h1{
+   font-size: 48px;
+   font-weight: bolder;
+   color:#F9FAF8;
+   margin-bottom: 0px;
+   
+}
+
+h2{
+    font-size:24px;
+    color:#F9FAF8;
+    font-weight: bold;
+
+}
+.levelone .text{
+    display:flex;
+    align-items: start;
+    width:500px;
+        flex-direction: column;
+ 
+   
+}
+
+button{
+    padding: 8px;;
+    background-color: #3882F6;
+    border:0;
+    width:200px;
+    color: #F9FAF8;
+    border-radius:8px;
+}
+.levelone img{
+    width:500px;
+    height: 400px;
+}
+
+.secondblock{
+    background-color: white;
+    display:flex;
+    padding:100px;
+    flex-direction: column;
+}
+
+.secondblock h3{
+     font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: #1F2937;
+  
+}
+
+.secondblock p{
+    color: black;
+    width:250px;
+   text-align: center;
+}
+
+.secondblock .boxes{
+    display:flex;
+    gap:30px;
+    justify-content: center;
+}
+.box1,.box2,.box3,.box4{
+ border-radius:15px;
+ padding:20px;
+ width:150px; 
+ height:150px;
+ border: 2px solid #3882F6;
+
+}
+
+.container1,.container2,.container3,.container4{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.thirdblock{
+    padding:100px;
+    display:flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthblock{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:100px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    width:600px;
+}
+.quoteAuthor{
+    text-align: right;
+    font-size:18px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.calltoaction{
+    display:flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    padding:30px 300px;
+    gap:200px;
+    background-color: #3882F6;
+}
+
+.fourthblock button{
+    border: 4px solid #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer{
+   display: flex;
+   background-color:  #1F2937;
+   font-size: 32px;
+   color: #E5E7EB;
+   justify-content: center;
+   padding:100px;
+
+}
